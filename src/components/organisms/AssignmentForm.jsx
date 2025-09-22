@@ -20,7 +20,7 @@ const AssignmentForm = ({ assignment, courses = [], onSubmit, onCancel }) => {
 
   useEffect(() => {
     if (assignment) {
-      setFormData({
+setFormData({
         title: assignment.title || "",
         description: assignment.description || "",
         courseId: assignment.courseId || "",

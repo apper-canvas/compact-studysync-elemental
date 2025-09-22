@@ -18,7 +18,7 @@ const CourseForm = ({ course, onSubmit, onCancel }) => {
 
   useEffect(() => {
     if (course) {
-      setFormData({
+setFormData({
         name: course.name || "",
         instructor: course.instructor || "",
         credits: course.credits?.toString() || "",

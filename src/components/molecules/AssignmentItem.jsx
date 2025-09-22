@@ -7,7 +7,7 @@ import ApperIcon from "@/components/ApperIcon";
 
 const AssignmentItem = ({ assignment, course, onToggleComplete, onEdit, onDelete }) => {
   const now = new Date();
-  const dueDate = new Date(assignment.dueDate);
+  const dueDate = new Date(assignment.due_date_c || assignment.dueDate);
   const isOverdue = isBefore(dueDate, now) && !assignment.completed;
   const isDueSoon = isAfter(dueDate, now) && isBefore(dueDate, addDays(now, 3)) && !assignment.completed;
   

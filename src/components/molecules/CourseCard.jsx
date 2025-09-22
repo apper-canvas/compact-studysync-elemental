@@ -19,7 +19,7 @@ const CourseCard = ({ course, assignments = [], onEdit, onDelete }) => {
     <Card hover className="group">
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center space-x-3">
-          <div 
+<div 
             className="w-4 h-4 rounded-full flex-shrink-0"
             style={{ backgroundColor: course.color }}
           />
