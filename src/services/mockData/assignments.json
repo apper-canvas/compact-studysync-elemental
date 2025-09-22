@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "courseId": 1,
+    "title": "Research Paper on Cognitive Bias",
+    "description": "Write a 1500-word research paper analyzing three different cognitive biases and their impact on decision-making.",
+    "dueDate": "2024-12-15T23:59:00.000Z",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "totalPoints": 100
+  },
+  {
+    "Id": 2,
+    "courseId": 2,
+    "title": "Midterm Exam",
+    "description": "Comprehensive exam covering chapters 1-6, including derivatives and limits.",
+    "dueDate": "2024-12-10T14:00:00.000Z",
+    "priority": "high",
+    "completed": true,
+    "grade": 87,
+    "totalPoints": 100
+  },
+  {
+    "Id": 3,
+    "courseId": 3,
+    "title": "Essay on WWI Causes",
+    "description": "Analyze the primary causes of World War I and discuss their interconnected nature.",
+    "dueDate": "2024-12-18T23:59:00.000Z",
+    "priority": "medium",
+    "completed": false,
+    "grade": null,
+    "totalPoints": 75
+  },
+  {
+    "Id": 4,
+    "courseId": 4,
+    "title": "Argumentative Essay Draft",
+    "description": "Submit first draft of argumentative essay on chosen topic for peer review.",
+    "dueDate": "2024-12-12T23:59:00.000Z",
+    "priority": "medium",
+    "completed": true,
+    "grade": 92,
+    "totalPoints": 100
+  },
+  {
+    "Id": 5,
+    "courseId": 5,
+    "title": "Lab Report: Cell Division",
+    "description": "Complete lab report on mitosis and meiosis observations with microscopy images.",
+    "dueDate": "2024-12-20T23:59:00.000Z",
+    "priority": "low",
+    "completed": false,
+    "grade": null,
+    "totalPoints": 50
+  },
+  {
+    "Id": 6,
+    "courseId": 1,
+    "title": "Weekly Discussion Post",
+    "description": "Participate in online discussion about learning theories and respond to two classmates.",
+    "dueDate": "2024-12-08T23:59:00.000Z",
+    "priority": "low",
+    "completed": true,
+    "grade": 25,
+    "totalPoints": 25
+  },
+  {
+    "Id": 7,
+    "courseId": 2,
+    "title": "Problem Set 8",
+    "description": "Complete integration problems from chapter 8, exercises 1-20.",
+    "dueDate": "2024-12-14T23:59:00.000Z",
+    "priority": "medium",
+    "completed": false,
+    "grade": null,
+    "totalPoints": 50
+  },
+  {
+    "Id": 8,
+    "courseId": 3,
+    "title": "Primary Source Analysis",
+    "description": "Analyze three primary source documents from the American Revolution period.",
+    "dueDate": "2024-12-16T23:59:00.000Z",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "totalPoints": 80
+  },
+  {
+    "Id": 9,
+    "courseId": 4,
+    "title": "Grammar Quiz",
+    "description": "Online quiz covering advanced grammar rules and punctuation.",
+    "dueDate": "2024-12-11T23:59:00.000Z",
+    "priority": "low",
+    "completed": true,
+    "grade": 18,
+    "totalPoints": 20
+  },
+  {
+    "Id": 10,
+    "courseId": 5,
+    "title": "Final Project Proposal",
+    "description": "Submit proposal for final research project including hypothesis and methodology.",
+    "dueDate": "2024-12-22T23:59:00.000Z",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "totalPoints": 100
+  }
+]
