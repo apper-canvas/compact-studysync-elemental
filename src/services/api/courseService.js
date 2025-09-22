@@ -178,7 +178,6 @@ if (!response.success) {
 if (!response.success) {
         console.error(response.message);
         return null;
-        throw new Error(response.message);
       }
 
       if (response.results) {
