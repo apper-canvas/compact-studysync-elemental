@@ -25,9 +25,9 @@ export const courseService = {
 
       const response = await apperClient.fetchRecords('course_c', params);
 
-      if (!response.success) {
+if (!response.success) {
         console.error(response.message);
-        throw new Error(response.message);
+        return [];
       }
 
       // Transform database fields to UI format
@@ -114,9 +114,9 @@ export const courseService = {
 
       const response = await apperClient.createRecord('course_c', params);
 
-      if (!response.success) {
+if (!response.success) {
         console.error(response.message);
-        throw new Error(response.message);
+        return null;
       }
 
       if (response.results) {
@@ -175,9 +175,9 @@ export const courseService = {
       };
 
       const response = await apperClient.updateRecord('course_c', params);
-
-      if (!response.success) {
+if (!response.success) {
         console.error(response.message);
+        return null;
         throw new Error(response.message);
       }
 
@@ -229,9 +229,9 @@ export const courseService = {
 
       const response = await apperClient.deleteRecord('course_c', params);
 
-      if (!response.success) {
+if (!response.success) {
         console.error(response.message);
-        throw new Error(response.message);
+        return false;
       }
 
       if (response.results) {
